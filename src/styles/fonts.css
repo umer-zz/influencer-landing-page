@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: Hybi11;
+    src: url(../assets/font/Hybi11AmigoRegular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Hybi11;
+    src: url(../assets/font/Hybi11AmigoBold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Hybi11;
+    src: url(../assets/font/Hybi11AmigoExtraBold.woff2);
+    font-weight: 800;
+}
+@font-face {
+    font-family: Hybi11;
+    src: url(../assets/font/Hybi11AmigoLight.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Hybi11;
+    src: url(../assets/font/Hybi11AmigoSemiBold.woff2);
+    font-weight: 600;
+}
