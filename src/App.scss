@@ -1,7 +1,111 @@
 @import "./styles/reset.css";
 @import "./styles/fonts.css";
 
+:root {
+    --title-color: #455164;
+    --light-color: #7D8694;
+    --light-color1: #F7F8FC;
+}
+
+html,
+body {
+    height: 100%;
+}
 
 body {
     font-family: Hybi11;
+}
+
+.banner {
+    background-image: url(./assets/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        h1 {
+            font-size: 4.5rem;
+            font-weight: 600;
+        }
+
+        h5 {
+            max-width: 355px;
+            text-align: center;
+            line-height: 2;
+            font-weight: 400;
+        }
+
+        .banner-button {
+            background-color: #15C5A3;
+            padding: 1rem 4rem;
+            color: white;
+            border: none;
+            border-radius: 9999px;
+        }
+    }
+}
+
+.video-container {
+    height: 586px;
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    top: -200px;
+
+    video {
+        min-height: 100%;
+        min-width: 100%;
+    }
+}
+
+.px-175 {
+    padding-inline: 175px;
+}
+
+.section-1 {
+    background: var(--light-color1);
+    background: radial-gradient(at center top, #FFFFFF, var(--light-color1));
+    padding-block: 3rem;
+
+    .title {
+        font-size: 2.5rem;
+        color: var(--title-color);
+        font-weight: bold;
+    }
+
+    .sub-1 {
+        color: var(--light-color);
+    }
+
+    .sub-2 {
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+
+    li {
+        color: var(--light-color)
+    }
+}
+
+.section-title {
+    font-weight: bold;
+    text-align: center;
+    color: var(--title-color);
+    font-size: 2.5rem;
+    padding-block: 1.5rem;
 }

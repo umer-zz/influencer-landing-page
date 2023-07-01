@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 58px;
+    z-index: 1;
+
+    .nav-item {
+        color: white;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .header-button {
+        border-radius: 99999px;
+        background-color: white;
+        border: none;
+        color: #4FA1FA;
+        padding: 1.2rem 1.5rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        &:active {
+            transform: scale(.9);
+        }
+
+        &:hover:not(:active) {
+            transform: scale(1.1);
+        }
+    }
+}
