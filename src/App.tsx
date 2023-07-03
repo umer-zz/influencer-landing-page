@@ -1,6 +1,7 @@
 import './App.scss'
 import Header from './components/Header/Header'
-import image1 from './assets/Group 14134.png';
+import image1 from './assets/Group14134.png';
+import image1_large from './assets/Group14134@2x.png';
 
 import cardbg1 from './assets/Mask Group 45.png';
 import cardbg2 from './assets/Mask Group 46.png';
@@ -22,7 +23,7 @@ import Solutioncardimg3 from './assets/icon-2.png';
 
 import roadmapimg from './assets/roadmap.png';
 import wheat from './assets/wheat.png';
-import logo from './assets/Group 4260.png'
+import logo from './assets/Group4260.png'
 
 import fb from './assets/Subtraction 6.png'
 import ins from './assets/Image 10.png'
@@ -51,19 +52,19 @@ function App() {
         </div>
       </div>
       <section style={{ height: 500 }}>
-        <div className="container-xl">
+        <div className="container-xxl">
           <div className='video-container'>
             <video disablePictureInPicture controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"></video>
           </div>
         </div>
       </section>
       <section className='section-1'>
-        <div className="container-xl">
+        <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <img src={image1} alt="" />
+              <img src={image1} srcSet={`${image1} 641w, ${image1_large} 1282w`} sizes="(max-width: 2500px) 641px,1282px" />
             </div>
-            <div className="col-6 d-flex justify-content-center align-items-center ps-5">
+            <div className="col-6 d-flex justify-content-center align-items-center">
               <div>
                 <h3 className='title mb-4'>The influencer Search Engine</h3>
                 <p className='sub-1 mb-4'>Find authentic influencers in seconds and leverage their reach to grow your bussiness</p>
@@ -81,7 +82,7 @@ function App() {
 
 
       <div className="bg-gradientt pb-5">
-        <div className="container-xl">
+        <div className="container-xxl">
           <h1 className='section-title'>Search, Shortlist and Reach Out</h1>
           <div className="row g-5">
             <div className="col-4">
@@ -95,7 +96,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="container-xl">
+        <div className="container-xxl">
           <h1 className='section-title'>Data You'll Get With Us</h1>
           <div className="row g-5">
             <div className="col-4">
@@ -120,7 +121,7 @@ function App() {
         </div>
       </div>
       <div className='pb-5'>
-        <div className="container-xl">
+        <div className="container-xxl">
           <h1 className='section-title'>Solution to every kind of bussiness</h1>
           <div className="row g-5">
             <div className="col-4">
@@ -144,13 +145,13 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <div className="conatainer-xl">
           <img src={roadmapimg} alt="" />
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-xl py-5">
+      <div className="container-xxl p-5">
         <div className="row">
           <div className="col-6">
             <h1 className='section-title text-start py-3'>Simple & Transparent Pricing</h1>
@@ -174,10 +175,10 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
               </div>
               <div className='pricing'>
                 <div>
-                  <p className='yellow mb-4' style={{ fontWeight: 300 }}>WAS</p>
-                  <p className='yellow linethrough mb-4'>$199/lifetime</p>
-                  <div className='pill mb-4'></div>
-                  <p className='p1 mb-4'>Now</p>
+                  <p className='yellow mb-3' style={{ fontWeight: 300 }}>WAS</p>
+                  <p className='yellow linethrough mb-3'>$199/lifetime</p>
+                  <div className='pill mb-3'></div>
+                  <p className='p1 mb-3'>Now</p>
                   <p className='p2'>$99/lifetime</p>
                 </div>
                 <p className='text-end'>BUY NOW</p>
@@ -189,7 +190,7 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
       </div>
 
       <div className='py-5 question-wrapper'>
-        <div className="container-xl">
+        <div className="container-xxl">
           <div className='longcard'>
             <h1 className='section-title py-0'>Got any questions?</h1>
             <button className='green-btn'>Contact us</button>
@@ -198,7 +199,7 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
       </div>
 
       <footer>
-        <div className="container-xl">
+        <div className="container-xxl">
           <div className="row">
             <div className="col-3">
               <img src={logo} alt="logo" />
