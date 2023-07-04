@@ -62,7 +62,7 @@ function App() {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <img src={image1} srcSet={`${image1} 641w, ${image1_large} 1282w`} sizes="(max-width: 2500px) 641px,1282px" />
+              <img src={image1} />
             </div>
             <div className="col-6 d-flex justify-content-center align-items-center">
               <div>
