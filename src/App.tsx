@@ -46,7 +46,7 @@ function App() {
           <h5>
             The fastest and most efficient method to find social media influencers
           </h5>
-          <button className='green-btn mt-4'>
+          <button className='green-btn my-4'>
             Try for free Today!
           </button>
         </div>
