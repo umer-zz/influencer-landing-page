@@ -202,7 +202,7 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
-              <img src={logo} alt="logo" />
+              {/* <img src={logo} alt="logo" /> */}
               <p className='small-font mt-4' style={{ maxWidth: 238 }}>
                 The only platform you will ever need for
                 your content marketing and Social media
@@ -244,7 +244,7 @@ the B2B industry as well.' image={Solutioncardimg3}></SolutionCard>
               <img className='me-4' src={fb} alt="" />
               <img className='me-4' src={ins} alt="" />
               <img src={twtt} alt="" />
-              <p className='mt-4 small-font'>© 2016 - 2017 Contentstudio</p>
+              <p className='mt-4 small-font'>© 2016 - 2017 Constudio</p>
             </div>
             <div>
               <p className='small-font mb-4'>You can download our app from.</p>

@@ -7,7 +7,7 @@ const Header = () => {
         <nav>
             <div className="row align-items-center">
                 <div className='col-4'>
-                    <img src={logo} alt="logo" srcSet={`${logo} 195w, ${logo2} 389w`} sizes="(max-width: 2048px) 195px,389px" />
+                    {/* <img src={logo} alt="logo" srcSet={`${logo} 195w, ${logo2} 389w`} sizes="(max-width: 2048px) 195px,389px" /> */}
                 </div>
                 <div className="col">
                     <div className="row">
